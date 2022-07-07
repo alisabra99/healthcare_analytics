@@ -13,7 +13,7 @@ st.set_page_config(
 
 #reading the csv file,
 #filling na values of suicides with 0
-df=pd.read_csv(r"C:\Users\aasab\Desktop\who_suicide.csv")
+df=pd.read_csv("who_suicide.csv")
 df["suicides_no"].fillna(0,inplace=True)
 df.info()
 
