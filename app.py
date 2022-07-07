@@ -1,10 +1,7 @@
 import streamlit as st
 import pandas as pd
-import matplotlib.pyplot as plt
 import plotly.express as px
 import plotly.graph_objects as go
-#rom datetime import time
-import seaborn as sns
 import hydralit_components as hc
 from plotly.offline import init_notebook_mode, iplot
 from PIL import Image
